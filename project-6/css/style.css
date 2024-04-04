@@ -1,0 +1,360 @@
+
+body {
+    background-color: #E8F6FF;
+    color: #000;
+    font-family: Mulish;
+}
+.navbar .navbar-nav .nav-link {
+    padding-right: 1.0rem;
+    padding-left: 2.0rem;
+}
+.social-icons a{
+        margin-right: 15px;
+        background-color: blue;
+        color: white;
+        border-radius: 50%;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        width: 35px;
+        height: 35px;
+        text-decoration: none;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    border-radius: 0px 25px 0px 25px;
+}
+.social-icons{
+    margin-left: 35px;
+    display: flex;
+    align-items: center;
+}
+.heading{
+    color:white;
+    font-size: 50px;
+    max-width: 500px;
+}
+.para-1{
+color:white;
+max-width: 600px;
+}
+.banner_sec{
+background: url(../img/banner.jpg) no-repeat center/cover;
+padding: 200px 0;
+}
+.para-1{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+h1{
+    font-family: Mont-Heavy;
+}
+.why_sec img {
+    border-radius:70px;
+    margin-top: 50px;
+}
+.why_sec{
+background-color:#E8F6FF;
+padding: 80px;
+}
+.why_sec-2{
+margin-top: 50px;
+}
+.why_sec h3 {
+    color:blue;
+    font-family: Mulish-SemiBold;
+    font-size: 16px;
+    letter-spacing: 0.3em;
+    margin: 0;
+    text-transform: uppercase;
+}
+.why_sec h2{
+    color:blue;
+    font-size: 42px;
+    letter-spacing: 0.07em;
+    margin: 8px 0 10px;
+}
+.why_sec h2 span {
+    color: transparent;
+    display: block;
+    -webkit-text-stroke: 1.5px blue;
+}
+.why_sec p {
+    color: #282828;
+    font-size: 14px;
+    line-height: 2;
+    margin-bottom:20px;
+}
+.resd-img{
+    position: relative;
+}
+.serv-box {
+    bottom: 60px;
+    position: absolute;
+    color: white;
+    left: 12px;
+    right: 12px;
+    padding: 0 30px;
+}
+.serv-box h3 p {
+    color: white;
+}
+.serv_text {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+.serv-sec .col-md-6{
+    margin: 0 0 25px;
+    position: relative;
+}
+.serv_sec {
+    position: relative;
+    padding-bottom: 200px;
+}
+img{
+    max-width: 100%;
+}
+.serv-box a {
+    color: #fff;
+    font-family: Mulish-SemiBold;
+    font-size: 14px;
+}
+.serv-sec p {
+    font-family: Mulish-SemiBold;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0 0 14px;
+}
+.hail_sec{
+    background-color:#E8F6FF;
+   
+}
+.hail_sec p {
+    color: #282828;
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 20px 0 12px;
+}
+.container {
+    max-width: 1230px;
+}
+.serv_text .col-md-6 {
+    position: relative;
+}
+.hail_sec h2 {
+    color:blue;
+    font-size: 35px;
+    margin: 15px 0 0;
+}
+ h2{
+    font-family: Mont-Heavy;
+}
+.hail_sec p {
+    color: #282828;
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 20px 0 12px;
+}
+.work_sec{
+    padding: 80px;
+}
+.anil > div {
+    margin-bottom: 24px;
+}
+.work_sec h3 {
+    font-family: Mulish-SemiBold;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    margin: 0;
+    text-transform: uppercase;
+}
+.work_sec h2 {
+    font-size: 42px;
+    letter-spacing: 0.05em;
+    margin: 0 0 50px;
+    text-align: center;
+}
+.work-box{
+    
+    background-color:blue;
+    border-radius: 8px;
+    padding: 12px 8px 27px;
+   color: #fff;
+}
+
+.heading {
+    position: relative;
+}
+.testimonials {
+    background: url("https://i.ibb.co/JRrHmhv/shanghai.jpg") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 130px 0 150px;
+    color: #ffffff;
+    position: relative;
+}
+.testimonials:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+.testimonials .heading h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.testimonials .heading h2 span {
+    color: #ff0000;
+}
+
+.testimonials p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #d1e5e7;
+    margin: 20px 0;
+    padding: 0;
+}
+
+/* Image */
+.testimonials .carousel-inner .carousel-item .team {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ff0000;
+    border-radius: 100%;
+    padding: 5px;
+    margin: 50px 0 15px;
+}
+
+.testimonials .carousel-inner .carousel-item h3 {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.testimonials .carousel-inner .carousel-item h4 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #e2e1e1;
+    margin-bottom: 20px;
+}
+
+.testimonials .carousel-indicators {
+    bottom: -30px;
+}
+
+.testimonials .carousel-indicators li {
+    background-color: #b8b7b7;
+    border-radius: 30px;
+    height: 4px;
+    width: 40px;
+}
+
+.testimonials .carousel-indicators .active {
+    background-color: #ff0000;
+}
+
+.testimonials .control span {
+    cursor: pointer;
+}
+
+.testimonials .icon {
+    height: 40px;
+    width: 40px;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    font-size: 30px;
+    background-image: none;
+    color: #ffffff;
+}
+.sch_sec .col-md-5 img{
+    margin-top: 50px;
+    border-radius: 40px;
+}
+
+.footer{
+    margin-top: 50px;
+}
+.footer h2{
+    font-size:30px;
+    color: blue;
+    font-weight: 800;
+}
+.footer ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+.footer ul a{
+    text-decoration: none;
+    color: #000;
+    font-size:20px;
+    padding: 20px;
+}
+.foot-box {
+    text-align: center;
+}
+footer h3 {
+    background-color:blue;
+    color: #fff;
+    font-family: Mulish-SemiBold;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 25px 0 0;
+    padding: 25px;
+}
+.foot-box ul {
+    background-color: var(--main-color-1);
+    padding: 12px 0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.foot-box li {
+    font-family: Mulish-SemiBold;
+    font-size: 17px;
+    padding: 3px 0;
+}
+.foot-box a{
+    color: #fff;
+    
+}
+footer li a {
+    color: #282828;
+    font-family: Mulish-SemiBold;
+    font-size: 16px;
+}
+.foot-box li:last-child {
+    padding: 12px 0 8px;
+}
+.foot-box ul {
+    background-color:lightblue;
+    padding: 12px 0;
+}
+.footer{
+   position: relative;
+    
+}
+.footer .row{
+margin-top: 30px;
+}
+.foot-main {
+    top: 150px;
+}
+.foot-main {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
